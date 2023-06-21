@@ -1,34 +1,174 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
-/* body {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-/* box-sizing: border-box;
-  position: fixed;
-  z-index: -1;
-  background-color: coral;
-} */
-
 .btn {
-  border-radius: 0 !important;
+  border-radius: 1 !important;
   border-color: rgb(22, 22, 82) !important;
-  border-width: 2px !important;
-  /* background-color: black !important; */
+  border-width: 3px !important;
 }
 .btn-hover-blue:hover {
   background-color: rgb(22, 22, 82) !important;
-  /* Add any other styles you want to apply on hover */
 }
 .exit {
   background-color: red !important;
   color: black !important;
+  padding: 25px !important;
+  padding-inline: 100px !important;
+  margin-right: 70px !important;
+  font-size: 65px !important;
 }
 .exit:hover {
   background-color: orangered !important;
   border-color: orangered !important;
 }
+
+.heading {
+  font-size: 85px !important;
+}
+.paragraph {
+  font-size: 65px !important;
+}
+.btn-back {
+  padding: 25px !important;
+  padding-inline: 120px !important;
+  margin-left: 70px !important;
+  font-size: 75px !important;
+}
+.btn-continue {
+  padding-inline: 220px !important;
+  font-size: 65px !important;
+}
+.counter {
+  font-size: 100px !important;
+  font-weight: normal;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+  .paragraph {
+    font-size: 22px !important;
+  }
+  .heading {
+    font-size: 30px !important;
+  }
+  .counter {
+    font-size: 50px !important;
+  }
+  .btn-back {
+    padding: 10px !important;
+    padding-inline: 24px !important;
+    margin-left: 10px !important;
+    font-size: 24px !important;
+  }
+  .btn-continue {
+    padding-inline: 35px !important;
+    font-size: 22px !important;
+  }
+  .exit {
+    padding: 10px !important;
+    margin-right: 10px !important;
+    font-size: 20px !important;
+    padding-inline: 18px !important;
+  }
+}
+/* tablets  */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .paragraph {
+    font-size: 40px !important;
+  }
+  .heading {
+    font-size: 55px !important;
+  }
+  .counter {
+    font-size: 85px !important;
+  }
+  .btn-back {
+    padding: 20px !important;
+    padding-inline: 35px !important;
+    margin-left: 10px !important;
+    font-size: 36px !important;
+  }
+  .btn-continue {
+    padding-inline: 65px !important;
+    font-size: 35px !important;
+  }
+  .exit {
+    padding: 20px !important;
+    margin-right: 10px !important;
+    font-size: 35px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .paragraph {
+    font-size: 37px !important;
+  }
+  .heading {
+    font-size: 60px !important;
+  }
+  .counter {
+    font-size: 80px !important;
+  }
+  .btn-back {
+    padding: 16px !important;
+    padding-inline: 50px !important;
+    margin-left: 10px !important;
+    font-size: 40px !important;
+  }
+  .btn-continue {
+    padding-inline: 140px !important;
+    font-size: 35px !important;
+  }
+  .exit {
+    padding: 20px !important;
+    margin-right: 10px !important;
+    font-size: 35px !important;
+    padding-inline: 40px !important;
+  }
+}
+
+/* @media screen and (min-width: 576px) {
+  .paragraph {
+    font-size: 24px !important;
+  }
+  .heading {
+    font-size: 32px !important;
+  }
+  .btn-back {
+    padding: 15px !important;
+    padding-inline: 22px !important;
+    margin-left: 10px !important;
+    font-size: 26px !important;
+  }
+  .btn-continue {
+    padding-inline: 60px !important;
+    font-size: 25px !important;
+  }
+  .exit {
+    padding: 15px !important;
+    margin-right: 10px !important;
+    font-size: 25px !important;
+  }
+} */
+
+/* @media screen and (max-width: 375px) {
+  .heading {
+    font-size: 28px !important;
+  }
+  .paragraph {
+    font-size: 19px !important;
+  }
+  .btn-back {
+    padding: 15px !important;
+    padding-inline: 20px !important;
+    margin-left: 10px !important;
+    font-size: 22px !important;
+  }
+  .btn-continue {
+    padding-inline: 25px !important;
+    font-size: 20px !important;
+  }
+  .exit {
+    padding: 15px !important;
+    margin-right: 10px !important;
+    font-size: 20px !important;
+  }
+}
+
+ */
