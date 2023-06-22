@@ -11,8 +11,8 @@
   color: black !important;
   padding: 25px !important;
   padding-inline: 100px !important;
-  margin-right: 70px !important;
-  font-size: 65px !important;
+  margin-right: 20px !important;
+  font-size: 45px !important;
 }
 .exit:hover {
   background-color: orangered !important;
@@ -20,23 +20,23 @@
 }
 
 .heading {
-  font-size: 85px !important;
+  font-size: 65px !important;
 }
 .paragraph {
-  font-size: 65px !important;
+  font-size: 45px !important;
 }
 .btn-back {
-  padding: 25px !important;
-  padding-inline: 120px !important;
-  margin-left: 70px !important;
-  font-size: 75px !important;
+  padding: 10px !important;
+  padding-inline: 90px !important;
+  margin-left: 20px !important;
+  font-size: 45px !important;
 }
 .btn-continue {
-  padding-inline: 220px !important;
-  font-size: 65px !important;
+  padding-inline: 100px !important;
+  font-size: 45px !important;
 }
 .counter {
-  font-size: 100px !important;
+  font-size: 50px !important;
   font-weight: normal;
 }
 
@@ -122,53 +122,3 @@
     padding-inline: 40px !important;
   }
 }
-
-/* @media screen and (min-width: 576px) {
-  .paragraph {
-    font-size: 24px !important;
-  }
-  .heading {
-    font-size: 32px !important;
-  }
-  .btn-back {
-    padding: 15px !important;
-    padding-inline: 22px !important;
-    margin-left: 10px !important;
-    font-size: 26px !important;
-  }
-  .btn-continue {
-    padding-inline: 60px !important;
-    font-size: 25px !important;
-  }
-  .exit {
-    padding: 15px !important;
-    margin-right: 10px !important;
-    font-size: 25px !important;
-  }
-} */
-
-/* @media screen and (max-width: 375px) {
-  .heading {
-    font-size: 28px !important;
-  }
-  .paragraph {
-    font-size: 19px !important;
-  }
-  .btn-back {
-    padding: 15px !important;
-    padding-inline: 20px !important;
-    margin-left: 10px !important;
-    font-size: 22px !important;
-  }
-  .btn-continue {
-    padding-inline: 25px !important;
-    font-size: 20px !important;
-  }
-  .exit {
-    padding: 15px !important;
-    margin-right: 10px !important;
-    font-size: 20px !important;
-  }
-}
-
- */
